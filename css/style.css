@@ -93,14 +93,14 @@ body {
   display: block;
   font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 3.5rem;
+  letter-spacing: 2rem;
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out;
 }
 @media (max-width: 37.5em) {
   .heading-primary--main {
-    letter-spacing: 1rem;
+    letter-spacing: 0.8rem;
     font-size: 5rem;
   }
 }
@@ -372,22 +372,22 @@ body {
 .card__heading-span--1 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(255, 185, 0, 0.85),
-    rgba(255, 119, 48, 0.85)
+    rgba(72, 191, 227, 0.85),
+    rgba(83, 143, 217, 0.85)
   );
 }
 .card__heading-span--2 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(126, 213, 111, 0.85),
-    rgba(40, 180, 133, 0.85)
+    rgba(151, 223, 252, 0.85),
+    rgba(96, 61, 193, 0.85)
   );
 }
 .card__heading-span--3 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(41, 152, 255, 0.85),
-    rgba(86, 67, 250, 0.85)
+    rgba(128, 255, 219, 0.85),
+    rgba(100, 223, 223, 0.85)
   );
 }
 .card__details {
@@ -960,10 +960,10 @@ body {
   height: 85vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(126, 213, 111, 0.8),
-      rgba(40, 180, 133, 0.8)
+      rgba(151, 223, 252, 0.8),
+      rgba(96, 61, 193, 0.8)
     ),
-    url(../img/hero-small.jpg);
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667445189/projects/computer_twb5ot.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -981,10 +981,10 @@ body {
   .header {
     background-image: linear-gradient(
         to right bottom,
-        rgba(126, 213, 111, 0.8),
-        rgba(40, 180, 133, 0.8)
+        rgba(151, 223, 252, 0.8),
+        rgba(96, 61, 193, 0.8)
       ),
-      url(../img/hero.jpg);
+      url(https://res.cloudinary.com/deiacifoni/image/upload/v1667445189/projects/computer_twb5ot.jpg);
   }
 }
 @media (max-width: 37.5em) {
@@ -1186,8 +1186,8 @@ body {
   padding: 20rem 0;
   background-image: linear-gradient(
       to right bottom,
-      rgba(126, 213, 111, 0.8),
-      rgba(40, 180, 133, 0.8)
+      rgba(151, 223, 252, 0.8),
+      rgba(96, 61, 193, 0.8)
     ),
     url(../img/nat-4.jpg);
   background-size: cover;

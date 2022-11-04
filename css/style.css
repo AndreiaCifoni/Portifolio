@@ -319,10 +319,10 @@ body {
   transform: rotateY(180deg);
 }
 .card__side--back-1 {
-  background-image: linear-gradient(to right bottom, #48bfe3, #5390d9);
+  background-image: linear-gradient(to right bottom, #97dffc, #613dc1);
 }
 .card__side--back-2 {
-  background-image: linear-gradient(to right bottom, #97dffc, #613dc1);
+  background-image: linear-gradient(to right bottom, #48bfe3, #5390d9);
 }
 .card__side--back-3 {
   background-image: linear-gradient(to right bottom, #80ffdb, #64dfdf);
@@ -335,6 +335,7 @@ body {
 }
 .card__picture {
   background-size: cover;
+  background-position: center;
   height: 23rem;
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -342,16 +343,28 @@ body {
   border-top-right-radius: 3px;
 }
 .card__picture--1 {
-  background-image: linear-gradient(to right bottom, #48bfe3, #5390d9),
-    url(../img/nat-5.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(151, 223, 252, 0.6),
+      rgba(96, 61, 193, 0.6)
+    ),
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667571416/fruits/triad-portfolio_rzifsp.jpg);
 }
 .card__picture--2 {
-  background-image: linear-gradient(to right bottom, #97dffc, #613dc1),
-    url(../img/nat-6.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(72, 191, 227, 0.6),
+      rgba(83, 143, 217, 0.6)
+    ),
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667318858/projects/natours1_hzdi1i.jpg);
 }
 .card__picture--3 {
-  background-image: linear-gradient(to right bottom, #80ffdb, #64dfdf),
-    url(../img/nat-7.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(128, 255, 219, 0.6),
+      rgba(100, 223, 223, 0.6)
+    ),
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667570919/projects/omnifood-portfolio_sbqrws.jpg);
 }
 .card__heading {
   font-size: 2.8rem;
@@ -360,7 +373,7 @@ body {
   text-align: right;
   color: #fff;
   position: absolute;
-  top: 12rem;
+  top: 14rem;
   right: 2rem;
   width: 75%;
 }
@@ -372,15 +385,15 @@ body {
 .card__heading-span--1 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(72, 191, 227, 0.85),
-    rgba(83, 143, 217, 0.85)
+    rgba(151, 223, 252, 0.85),
+    rgba(96, 61, 193, 0.85)
   );
 }
 .card__heading-span--2 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(151, 223, 252, 0.85),
-    rgba(96, 61, 193, 0.85)
+    rgba(72, 191, 227, 0.85),
+    rgba(83, 143, 217, 0.85)
   );
 }
 .card__heading-span--3 {

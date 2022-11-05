@@ -1,0 +1,28 @@
+.banner-container {
+  font-family: "Comfortaa", cursive;
+  width: 70%;
+  height: 20rem;
+  background-image: url(https://res.cloudinary.com/deiacifoni/image/upload/v1667596025/projects/background/lights_radr0y.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.8rem 1rem;
+  letter-spacing: 0.2rem;
+  color: #3e1f47;
+  text-align: center;
+  font-weight: bold;
+}
+
+.banner-title {
+  font-size: 3rem;
+}
+
+.banner-subtitle {
+  font-size: 1.8rem;
+}

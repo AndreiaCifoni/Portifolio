@@ -15,7 +15,7 @@ live-server -->
 
     <link rel="stylesheet" href="css/icon-font.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
 
     <title>Andreia Cifoni</title>
   </head>
@@ -51,9 +51,6 @@ live-server -->
     </div>
 
     <header class="header">
-      <div class="header__logo-box">
-        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
-      </div>
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main"
@@ -312,119 +309,31 @@ live-server -->
           >
         </div>
       </section>
-
-      <section class="section-book">
-        <div class="row">
-          <div class="book">
-            <div class="book__form">
-              <form action="#" class="form">
-                <div class="u-margin-bottom-medium">
-                  <h2 class="heading-secondary">Start booking now</h2>
-                </div>
-
-                <div class="form__group">
-                  <input
-                    type="text"
-                    class="form__input"
-                    placeholder="Full Name"
-                    id="name"
-                    required
-                  />
-                  <label for="name" class="form__label">Full Name</label>
-                </div>
-
-                <div class="form__group">
-                  <input
-                    type="email"
-                    class="form__input"
-                    placeholder="Email Address"
-                    id="email"
-                    required
-                  />
-                  <label for="email" class="form__label">Email Address</label>
-                </div>
-
-                <div class="form__group">
-                  <div class="form__radio-group">
-                    <input
-                      type="radio"
-                      class="form__radio-input"
-                      id="small"
-                      name="size"
-                    />
-                    <label
-                      for="small"
-                      class="form__radio-label u-margin-bottom-medium"
-                    >
-                      <span class="form__radio-button"></span>
-                      Small tour group</label
-                    >
-                  </div>
-                </div>
-
-                <div class="form__group">
-                  <div class="form__radio-group">
-                    <input
-                      type="radio"
-                      class="form__radio-input"
-                      id="large"
-                      name="size"
-                    />
-                    <label for="large" class="form__radio-label">
-                      <span class="form__radio-button"></span>
-                      Large tour group</label
-                    >
-                  </div>
-                </div>
-
-                <div class="form__group">
-                  <button class="btn btn--green">Next stop &rarr;</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer class="footer">
-      <div class="footer__logo-box">
-        <!-- o "picture" serve pra colocar multiple sources pra imagem a ser exibida... no "source" pode ser colocado uma media query pra especificar qual imagem sera exibida naquela medida... dentro de cada "srcset" a gente coloca different density que sao dois caminhos pra mesma imagem e o browser que escolhe qual que vai ser exibido -->
-        <!-- responsive img, esse srcset manda as duas fotos e de acordo com a capacidade do aparelho, a tela vai escolher a melhor resolução pra ocupar menos espaco.. esse "1x" ou "2x" depois dos caminhos da foto sao pra identificar as resoluções usadas -->
-        <picture class="footer__logo">
-          <source
-            srcset="
-              img/logo-green-small-1x.png 1x,
-              img/logo-green-small-2x.png 2x
-            "
-            media="(max-width: 37.5em)"
-          />
-          <!-- o "src" simples tbm é incluido caso o browser nao funcione com "srcset" -->
-          <img
-            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
-            alt="full logo"
-            src="img/logo-green-2x.png"
-          />
-        </picture>
-      </div>
       <div class="row">
         <div class="col-1-of-2">
           <div class="footer__navigation">
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="" class="footer__link">Company</a>
+                <a
+                  href="mailto:andreiacifoni@gmail.com?subject='subject text'"
+                  class="footer__link"
+                  >Email</a
+                >
               </li>
               <li class="footer__item">
-                <a href="" class="footer__link">Contact us</a>
+                <a
+                  href="https://linkedin.com/in/andreiacifoni"
+                  class="footer__link"
+                  >Linkedin</a
+                >
               </li>
               <li class="footer__item">
-                <a href="" class="footer__link">Careers</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">Privacy Police</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">Terms</a>
+                <a href="https://github.com/AndreiaCifoni" class="footer__link"
+                  >GitHub</a
+                >
               </li>
             </ul>
           </div>
@@ -432,7 +341,6 @@ live-server -->
         <div class="col-1-of-2">
           <p class="footer__copyright">
             Built by <a href="#" class="footer__link">Andreia Cifoni</a>
-            <a href="#" class="footer__link">Portfolio</a>.
           </p>
         </div>
       </div>

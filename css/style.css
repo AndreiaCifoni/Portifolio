@@ -1181,7 +1181,7 @@ body {
       rgba(151, 223, 252, 0.8),
       rgba(96, 61, 193, 0.8)
     ),
-    url(../img/nat-4.jpg);
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667858062/projects/computer7_cqafby.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem;

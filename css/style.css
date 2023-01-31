@@ -356,7 +356,7 @@ body {
       rgba(72, 191, 227, 0.6),
       rgba(83, 143, 217, 0.6)
     ),
-    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667318858/projects/natours1_hzdi1i.jpg);
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667318858/projects/Natours/natours1_hzdi1i.jpg);
 }
 .card__picture--3 {
   background-image: linear-gradient(
@@ -364,7 +364,7 @@ body {
       rgba(128, 255, 219, 0.6),
       rgba(100, 223, 223, 0.6)
     ),
-    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667570919/projects/omnifood-portfolio_sbqrws.jpg);
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667570919/projects/Omnifood/omnifood-portfolio_sbqrws.jpg);
 }
 .card__heading {
   font-size: 2.8rem;

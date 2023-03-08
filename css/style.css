@@ -348,7 +348,7 @@ body {
       rgba(151, 223, 252, 0.6),
       rgba(96, 61, 193, 0.6)
     ),
-    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667571416/fruits/triad-portfolio_rzifsp.jpg);
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1677967429/projects/StreetsOfCanada/Home_page_fxogby.jpg);
 }
 .card__picture--2 {
   background-image: linear-gradient(
@@ -356,7 +356,7 @@ body {
       rgba(72, 191, 227, 0.6),
       rgba(83, 143, 217, 0.6)
     ),
-    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667318858/projects/Natours/natours1_hzdi1i.jpg);
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667571416/fruits/triad-portfolio_rzifsp.jpg);
 }
 .card__picture--3 {
   background-image: linear-gradient(
@@ -364,7 +364,7 @@ body {
       rgba(128, 255, 219, 0.6),
       rgba(100, 223, 223, 0.6)
     ),
-    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667570919/projects/Omnifood/omnifood-portfolio_sbqrws.jpg);
+    url(https://res.cloudinary.com/deiacifoni/image/upload/v1667318858/projects/Natours/natours1_hzdi1i.jpg);
 }
 .card__heading {
   font-size: 2.8rem;
